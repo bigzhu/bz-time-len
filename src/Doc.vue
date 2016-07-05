@@ -20,7 +20,7 @@
     <code v-text="code">
     </code>
     <div class="ui divider"></div>
-    <script-loader :scripts="scripts"></script-loader>
+    <time-len :the_time="the_time"> <time-len>
   </div>
 </template>
 
@@ -30,13 +30,14 @@
   import 'semantic-ui/dist/components/table.css'
   import 'semantic-ui/dist/components/container.css'
   import 'semantic-ui/dist/components/divider.css'
-  import ScriptLoader from './Bz'
+  import TimeLen from './Bz'
   export default {
     components: {
-      ScriptLoader
+      TimeLen
     },
     data: function () {
       return {
+        the_time: 1467621141473,
         parms: [
         { parm: 'scripts', desc: 'js 的url 列表' }
         ],
@@ -47,12 +48,6 @@
       }
     },
     methods: {
-      call_back: function () {
-        window.alert('点击了确认')
-      },
-      run: function () {
-        this.$broadcast('confirm')
-      }
     }
   }
 </script>
