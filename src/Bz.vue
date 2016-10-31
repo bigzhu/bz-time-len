@@ -1,12 +1,8 @@
-<style lang=less>
-</style>
-
 <template>
   <span>{{getLen(new Date(this.the_time))}}</span>
 </template>
 
 <script>
-  // import store from '../store'
   export default {
     props: {
       the_time: {
@@ -52,3 +48,6 @@
     }
   }
 </script>
+
+<style>
+</style>
