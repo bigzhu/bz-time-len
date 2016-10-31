@@ -26,13 +26,6 @@
     "test": ""
   },
   "dependencies": {
-    "bz-semantic-ui-button": "latest",
-    "bz-semantic-ui-container": "latest",
-    "bz-semantic-ui-divider": "latest",
-    "bz-semantic-ui-reset": "latest",
-    "bz-semantic-ui-site": "latest",
-    "bz-semantic-ui-table": "latest",
-    "toastr": "latest"
   },
   "devDependencies": {
     "vue": "latest",
