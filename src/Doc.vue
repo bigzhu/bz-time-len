@@ -18,16 +18,11 @@
     <code v-text="code">
     </code>
     <div class="ui divider"></div>
-    <time-len :the_time="the_time"> <time-len>
+    <time-len :the_time="the_time"> </time-len>
   </div>
 </template>
 
 <script>
-  import 'semantic-ui/dist/components/site.css'
-  import 'semantic-ui/dist/components/reset.css'
-  import 'semantic-ui/dist/components/table.css'
-  import 'semantic-ui/dist/components/container.css'
-  import 'semantic-ui/dist/components/divider.css'
   import TimeLen from './Bz'
   export default {
     components: {
@@ -39,7 +34,7 @@
         parms: [
         { parm: 'scripts', desc: 'js 的url 列表' }
         ],
-        code: `<script-loader :scripts="scripts"></script-loader>`,
+        code: `<time-len :the_time="the_time"> </time-len>`,
         scripts: [
           '//github.atool.org/canvas-nest.min.js'
         ]
@@ -48,4 +43,8 @@
     methods: {
     }
   }
+<<<<<<< HEAD
 </script>
+=======
+        </script>
+>>>>>>> b101af647d27cfe8298b457ccefbda46e5b5178c
