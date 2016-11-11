@@ -43,8 +43,5 @@
     methods: {
     }
   }
-<<<<<<< HEAD
 </script>
-=======
-        </script>
->>>>>>> b101af647d27cfe8298b457ccefbda46e5b5178c
+
