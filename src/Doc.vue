@@ -1,5 +1,3 @@
-
-
 <template>
   <div class="ui container segment">
     <h1>ScriptLoader</h1>
@@ -45,4 +43,5 @@
     methods: {
     }
   }
-        </script>
+</script>
+
