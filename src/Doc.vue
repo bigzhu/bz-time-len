@@ -18,7 +18,7 @@
     <code v-text="code">
     </code>
     <div class="ui divider"></div>
-    <time-len :the_time="the_time"> </time-len>
+    <time-len :the_time="the_time" lang='en'> </time-len>
   </div>
 </template>
 
@@ -44,4 +44,3 @@
     }
   }
 </script>
-
